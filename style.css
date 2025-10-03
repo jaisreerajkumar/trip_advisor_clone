@@ -4,7 +4,7 @@
 }
 body{
     background-color: white;
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Arial', sans-serif;
     background: #ffffff;
     color:black;
     padding: 40px 20px;
@@ -197,3 +197,107 @@ display: flex;
   margin-top: 10px;
   font-size: 20px;
 }
+.middle__image{
+margin-left: 8%;
+margin-right: 8%;
+}
+.middle__image__title{
+  color: black;
+  margin-top:50px;
+  margin-right:50%;
+  justify-content: right;
+  padding: 10px;
+}
+.middle__image__title h2{
+  margin-right:250px;
+  margin-bottom: 5px;
+}
+.middle__image__title p{
+  color: gray;
+  margin-right:200px;
+  font-size: 14px;
+}
+.cards__container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.cards{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 10%;
+  margin: 2px;
+  border: none;
+  shape-rendering: auto;
+  min-width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  }
+.cards img{
+  width: 95%;
+  height: 90%;
+  border-radius: 5px;
+}
+.cards h2{
+ position: absolute;
+ bottom: 35px;
+ left: 20px;
+ color: white;
+ font-size: 28px;
+ font-weight: bold;
+ text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
+}
+.coursecard {
+ display: flex;
+ align-items: center;
+ background-color:#ffffff;
+ margin: 20px;
+ padding: 30px;
+ border-radius: 16px;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+ width: 1150px;
+ margin-left: 135px;
+}
+.coursecard img {
+ width: 120px;
+ height: 120px;
+ object-fit: cover;
+ border-radius: 10px;
+ margin-right: 20px;
+}
+.coursecard__1{
+  flex: 1;
+}
+.coursecard__1 img{
+  width: 200px;
+  height:170px; 
+  }
+.coursecard__2{
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 10px;
+ color: #003300;
+ margin-right: 700px;
+}
+.read-now {
+ padding: 10px 20px;
+ background-color: white;
+ border: 2px solid #003300;
+ border-radius: 30px;
+ cursor: pointer;
+ transition: 0.3s;
+ margin-left:800px;
+ width: 150px;
+ height: 50px;
+ font-size: large;
+ }
+.read-now:hover {
+  background-color: #003300;
+  color: white;
+ }
