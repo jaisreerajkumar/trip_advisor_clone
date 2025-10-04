@@ -25,6 +25,4 @@ This project is a static travel website that mimics the core design and layout o
 - **HTML5** – For structure and semantic layout.  
 - **CSS3** – For styling, layout design, and responsiveness (including Flexbox/Grid).
 
----
-
 ## 🚀 How to Run the Project
