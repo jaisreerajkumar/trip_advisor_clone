@@ -18,11 +18,7 @@ This project is a static travel website that mimics the core design and layout o
 - 📱 **Responsive Design** – Looks great on desktops, tablets, and mobile devices.  
 - 🎨 **Clean UI** – Focused on user-friendly layout and visual consistency.
 
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5** – For structure and semantic layout.  
 - **CSS3** – For styling, layout design, and responsiveness (including Flexbox/Grid).
-
-## 🚀 How to Run the Project
